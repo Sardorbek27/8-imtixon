@@ -54,13 +54,13 @@ function Adverts({data}) {
                     
                     <div className=" w-[100%] h-[320px] flex pt-[30px] gap-[90px] pb-[50px]">
                         <div className="w-[630px] flex flex-col gap-[5px] text-[12px] font-semibold ">
-                            <img src={marevImg} alt="" />
+                            <img src={marevImg} />
                             <p className='text-purple-400 font-normal text-[14px] pl-[5px]'>До конца акции осталось: 23:41:27</p>
                             <p className='flex items-center gap-2 text-gray-400 pl-[5px]'><RiErrorWarningLine/> Спонсировано</p>
                         </div>
                                             
                         <div className="w-[630px] flex flex-col gap-[5px] text-[12px] font-semibold">
-                            <img src={oilImg} alt="" />
+                            <img src={oilImg}/>
                             <p className='text-purple-400 font-normal text-[14px] pl-[5px]'>До конца акции осталось: 21:54:32</p>
                             <p className='flex items-center gap-2 text-gray-400 pl-[5px]'><RiErrorWarningLine/> Спонсировано</p>
                         </div>

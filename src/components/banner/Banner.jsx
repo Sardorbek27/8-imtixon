@@ -26,16 +26,16 @@ const [brand, setBrand] = useState([]);
     <div>
         <Slider {...settings}>
       <div className=" w-screen">
-        <img className=" w-full h-[520px]" src={img1}alt="" />
+        <img className=" w-full h-[520px]" src={img1}/>
       </div>
       <div>
-        <img className=" w-full h-[520px]" src={img2}alt="" />
+        <img className=" w-full h-[520px]" src={img2}/>
       </div>
       <div>
-        <img className=" w-full h-[520px]"  src={img3}alt="" />
+        <img className=" w-full h-[520px]"  src={img3}/>
       </div>
       <div>
-        <img className=" w-full h-[520px]"  src={img4}alt="" />
+        <img className=" w-full h-[520px]"  src={img4}/>
       </div>
     </Slider>
 

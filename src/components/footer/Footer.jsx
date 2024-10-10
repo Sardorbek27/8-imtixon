@@ -58,14 +58,14 @@ function Footer() {
 
       <div className=' w-full justify-between flex items-center h-[80px] border border-t-gray-500 border-b-gray-600 '>
         <ul className=' flex gap-10 items-center w-full justify-center cursor-pointer'>
-          <li><img className=' w-[25px]' src={imageFlash1} alt="" /></li>
-          <li><img className=' w-[25px]' src={imageFlash2} alt="" /></li>
-          <li><img className=' w-[25px]' src={imageFlash3} alt="" /></li>
-          <li><img className=' w-[25px]' src={imageFlash4} alt="" /></li>
-          <li><img className=' w-[25px]' src={imageFlash5} alt="" /></li>
-          <li><img className=' w-[25px]' src={imageFlash6} alt="" /></li>
-          <li><img className=' w-[25px]' src={imageFlash7} alt="" /></li>
-          <li><img className=' w-[25px]' src={imageFlash8} alt="" /></li>
+          <li><img className=' w-[25px]' src={imageFlash1} /></li>
+          <li><img className=' w-[25px]' src={imageFlash2} /></li>
+          <li><img className=' w-[25px]' src={imageFlash3} /></li>
+          <li><img className=' w-[25px]' src={imageFlash4} /></li>
+          <li><img className=' w-[25px]' src={imageFlash5} /></li>
+          <li><img className=' w-[25px]' src={imageFlash6} /></li>
+          <li><img className=' w-[25px]' src={imageFlash7} /></li>
+          <li><img className=' w-[25px]' src={imageFlash8} /></li>
         </ul>
       </div>
 
