@@ -95,7 +95,6 @@ const Main = ({ products, perfumeryData }) => {
                       <img
                         className="w-full h-full object-contain"
                         src={product?.image_link}
-                        alt={'Image not avialable'}
                       />
                     ) : null}
                   </div>

@@ -2,7 +2,7 @@
 import React from 'react';
 import Slider from "react-slick";
 import { useNavigate } from 'react-router-dom';
-import { ToastContainer, toast } from 'react-toastify'; 
+import { ToastContainer} from 'react-toastify'; 
 
 const Perfumery = ({ perfumeryData }) => {
   const navigate = useNavigate()
