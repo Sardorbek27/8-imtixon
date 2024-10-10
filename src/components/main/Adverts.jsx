@@ -19,8 +19,8 @@ function Adverts({data}) {
                 <Slider {...settings}>
                     {data.map((product, index)=>{
                         return(
-                            <>
-                                <div key={index} className=' w-[560px] h-[320px] box-shadow-adv flex gap-[20px]'>
+                            <div key={index}>
+                                <div  className=' w-[560px] h-[320px] box-shadow-adv flex gap-[20px]'>
                                     <div className=' w-[500px] h-[500px] pt-[40px] pl-[20px]'>
                                         {product.image_link ? <img className=' w-[70%] items-center' src={product?.image_link} alt={ "Img" +product.name ? (product.name.length > 50 ? product.name.substring(0, 50) + '...' : product.name) : 'No description available'}/> : null}
                                     </div>
@@ -45,7 +45,7 @@ function Adverts({data}) {
                                 </div>
 
                                 
-                            </> 
+                            </div> 
                         )
                         })
                     }            
